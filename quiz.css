@@ -1,3 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  background-color: #037e55;
+  color: aliceblue;
+  font-family: castellar;
+  border: solid #037e55 10px;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #037e55;
+}
 body {
-  background-image: url("https://i.ytimg.com/vi/hdHFmc9oiKY/maxresdefault.jpg");
+  border: solid turqoise 30px;
+}
+
+.card1 {
+  position: relative;
+  left: 20px;
+  border: solid;
+  border-radius: 5px;
+  background-color: #037e55;
+}
+.carousel-slide {
+  height: 100px;
+  visibility: hidden;
+}
+.container {
+  background-color: #037e55;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-image: url("https://api.urbanstudentlife.com/wp-content/uploads/2020/09/Urban-Student-Life-Sheffield-1000x700px-September2020.jpg");
+  background-position: center;
 }
