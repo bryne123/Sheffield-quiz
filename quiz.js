@@ -1,5 +1,14 @@
 // create function that shows panel after clicking "let's get started"
 
+function startQuiz() {
+  document.getElementById("intro").style.display = "none";
+  document.getElementById("q1").style.display = "inline-block";
+}
+function nextQuestion() {
+  document.getElementById("q1").style.display = "none";
+  document.getElementById("q2").style.display = "inline-block";
+}
+
 //create function that hides carousel item- 1 on clicking it, and shows carousel item-2
 //create function that hides carousel item- 2 on clicking it, and shows carousel item-3
 //create function that hides carousel item- 4on clicking it, and shows carousel item-5
