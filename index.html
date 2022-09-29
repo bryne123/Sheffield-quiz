@@ -13,79 +13,64 @@
     />
     <title>So you think you're from Sheffield</title>
   </head>
-  
+  <script src="quiz.js"></script>
   <body>
     <div class="container">
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-      crossorigin="anonymous"
-    ></script>
-    <h1>SO YOU THINK YOU'RE FROM SHEFFIELD??</h1>
-    <div class="card1" style="width: 18rem">
-      <img
-        src="https://media.makeameme.org/created/one-does-not-dd3f8c8943.jpg"
-        class="card-img-top"
-        alt="meme"
-      />
-      <div class="card-body">
-        <h5 class="card-title">Sheffield Trivia</h5>
-        <p class="card-text">
-          Test your knowledge on Steel City in the ultimate Sheffield Trivia
-          Quiz!
-        </p>
-        <a href="#" class="btn btn-primary">Let's get started!</a>
-      </div>
-    </div>
-    
-    </div>
-    <div
-      id="carouselExampleControls"
-      class="carousel-slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="https://s0.geograph.org.uk/geophotos/04/70/43/4704357_97e2dc62.jpg"
-            class="d-block w-100"
-            alt="Wetherspoons"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://api.urbanstudentlife.com/wp-content/uploads/2020/09/Urban-Student-Life-Sheffield-1000x700px-September2020.jpg"
-            class="d-block w-100"
-            alt="Peace-gardens"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://www.sheffieldhistory.co.uk/forums/uploads/monthly_2021_01/137418985_Screenshot2021-01-15at07_22_07.jpg.e1880d48b274fb6a0de0d7dc5a466f0d.jpg"
-            class="d-block w-100"
-            alt="Four-lions"
-          />
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"
+      ></script>
+      <h1>SO YOU THINK YOU'RE FROM SHEFFIELD??</h1>
+      <div id="intro" class="card" style="width: 25rem">
+        <img
+          src="https://media.makeameme.org/created/one-does-not-dd3f8c8943.jpg"
+          class="card-img-top"
+          alt="meme"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Sheffield Trivia</h5>
+          <p class="card-text">
+            Test your knowledge on Steel City in the ultimate Sheffield Trivia
+            Quiz!
+          </p>
+          <button onclick="startQuiz()" class="btn btn-primary">
+            Let's get started!
+          </button>
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      <div id="q1" class="card" style="width: 25rem">
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fw2.jdwetherspoon.fdclients.co.uk%2F~%2Fmedia%2Fimages%2Fpubs%2F2196%2F1.jpg%3Fw%3D855%26crop%3D1%26cropx%3D50%26cropy%3D50%26hash%3DCBB4213841F81698AD874E1348F7D809521AE3B9&f=1&nofb=1&ipt=535f39a206e873333626cecaaf9ad30890dc42da69a09098f9661be8e18e44d4&ipo=images"
+          class="card-img-top"
+          alt="wetherspoons"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Question 1</h5>
+          <p class="card-text">
+            Amongst Sheffield's claim to fame is that there's a Wetherspoons
+            across the road from another Wetherspoons.. But how many
+            Wetherspoons are there in Sheffield?
+          </p>
+          <button onclick="nextQuestion()" class="btn btn-primary">
+            Next question
+          </button>
+        </div>
+      </div>
+      <div id="q2" class="card" style="width: 25rem">
+        <img
+          src="https://mapio.net/images-p/61373937.jpg"
+          class="card-img-top"
+          alt="crookesmoor"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Question 2</h5>
+          <p class="card-text">
+            Which city is Sheffield jokingly compared to due its hilly nature?
+          </p>
+          <button onclick="q1()" class="btn btn-primary">Next question</button>
+        </div>
+      </div>
     </div>
-  </div>
   </body>
 </html>

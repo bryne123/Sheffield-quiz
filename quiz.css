@@ -17,17 +17,17 @@ body {
   border: solid turqoise 30px;
 }
 
-.card1 {
+.card {
   position: relative;
-  left: 20px;
+  left: 300px;
   border: solid;
   border-radius: 5px;
   background-color: #037e55;
 }
-.carousel-slide {
-  height: 100px;
-  visibility: hidden;
+.card-body {
+  background-color: #037e55;
 }
+
 .container {
   background-color: #037e55;
   height: 100vh;
@@ -35,4 +35,16 @@ body {
   background-size: cover;
   background-image: url("https://api.urbanstudentlife.com/wp-content/uploads/2020/09/Urban-Student-Life-Sheffield-1000x700px-September2020.jpg");
   background-position: center;
+}
+#q1,
+#q2,
+#q3,
+#q4,
+#q5,
+#q6,
+#q7,
+#q8,
+#q9,
+#q10 {
+  display: none;
 }
