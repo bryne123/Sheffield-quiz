@@ -52,8 +52,26 @@
             across the road from another Wetherspoons.. But how many
             Wetherspoons are there in Sheffield?
           </p>
+          <div class="form-check">
+            <input  class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+            2
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              4
+            </label>
+          </div>
+          <div class="form-check">
+            <input onclick="question1()" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              7
+            </label>
+          </div>
           <button onclick="nextQuestion()" class="btn btn-primary">
-            Next question
+            Next Question
           </button>
         </div>
       </div>
@@ -68,7 +86,299 @@
           <p class="card-text">
             Which city is Sheffield jokingly compared to due its hilly nature?
           </p>
-          <button onclick="q1()" class="btn btn-primary">Next question</button>
+          <div class="form-check">
+            <input onclick="question2()" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Rome
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              New York
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Paris
+            </label>
+          </div>
+          <button onclick="nextQuestion2()" class="btn btn-primary">
+            Next question
+          </button>
+        </div>
+      </div>
+
+      <div id="q3" class="card" style="width: 25rem">
+        <img
+          src="https://footballtripper.com/wp-content/uploads/bramall-lane-entrance.jpg"
+          class="card-img-top"
+          alt="bramall_lane"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Question 3</h5>
+          <p class="card-text">
+            Sheffield is home to three professional football clubs, but which is
+            the world's oldest?
+          </p>
+          <div class="form-check">
+            <input  class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Sheffield United 
+            </label>
+          </div>
+          <div class="form-check">
+            <input on onclick="question3()"class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Sheffield FC
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+            Sheffield Wednesday
+            </label>
+          </div>
+          <button onclick="nextQuestion3()" class="btn btn-primary">
+            Next question
+          </button>
+        </div>
+      </div>
+      <div id="q4" class="card" style="width: 25rem">
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsuccesstours.s3.amazonaws.com%2Fweb%2Flocations%2FUK-Ireland%2FEngland%2FPeak%2520District%2F_2000xAUTO_crop_center-center_90_none%2FPeak-District-National-Park-Derbyshire-England-UK.jpg&f=1&nofb=1&ipt=b1ee1570c35b5ac38c6fabd164c12e3d63c83340411446818bd7341a3671c891&ipo=images"
+          class="card-img-top"
+          alt="Peak-District"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Question 4</h5>
+          <p class="card-text">Sheffield is partially within the boundary of which National Park?</p>
+          <div class="form-check">
+            <input onclick="question4()" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Peak District
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Snowdonia
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Lake District
+            </label>
+          </div>
+          <button onclick="nextQuestion4()" class="btn btn-primary">
+            Next question
+          </button>
+        </div>
+      </div>
+      <div id="q5" class="card" style="width: 25rem">
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.oblivionstate.com%2Fcommunity%2Fattachments%2F12610226793_2abee089d9_b-jpg.34174%2F&f=1&nofb=1&ipt=531efbb62778327eb44b662a72e61f4cdb7679055601b00a7c77ea830db26fc4&ipo=images"
+          class="card-img-top"
+          alt="old-town-hall"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Question 5</h5>
+          <p class="card-text">What did this building used to be?</p>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Town Hall 
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Court House 
+            </label>
+          </div>
+          <div class="form-check">
+            <input onclick="question5()"class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              All of the above
+            </label>
+          </div>
+          <button onclick="nextQuestion5()" class="btn btn-primary">
+            Next question
+          </button>
+        </div>
+      </div>
+      <div id="q6" class="card" style="width: 25rem">
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.billboard.com%2Ffiles%2Fmedia%2FArctic-Monkeys-press-photo-cr-Zackery-Michael-2018-billboard-1548-1024x677.jpg&f=1&nofb=1&ipt=76ddf35218b9773311350967a387b63511e5d6e2e4dcc6b33df29b16f6ceb653&ipo=images"
+          class="card-img-top"
+          alt="Arctic-Monkeys"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Question 6</h5>
+          <p class="card-text">
+            In which Sheffield pub did Artic Monkeys play their first gig?
+          </p>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Frog & Parrot
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              The Rawson Spring
+            </label>
+          </div>
+          <div class="form-check">
+            <input onclick="question6()" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+            The Grapes
+            </label>
+          </div>
+          <button onclick="nextQuestion6()" class="btn btn-primary">
+            Next question
+          </button>
+        </div>
+      </div>
+
+      <div id="q7" class="card" style="width: 25rem">
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.creativetourist.com%2Fapp%2Fuploads%2F2018%2F01%2F5108588864_310d9d247a_b-785x486.jpg&f=1&nofb=1&ipt=c93325f1cd65ec9fdefbdc65648b05cde48e8ca8cec9ac3c7346f09684b3293c&ipo=images"
+          class="card-img-top"
+          alt="crucible"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Question 7</h5>
+          <p class="card-text">
+            Sheffiled is host of the world championship of which sport?
+          </p>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Tennis
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Arm Wrestling
+            </label>
+          </div>
+          <div class="form-check">
+            <input onclick="question7()" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Snooker
+            </label>
+          </div>
+          <button onclick="nextQuestion7()" class="btn btn-primary">
+            Next question
+          </button>
+        </div>
+      </div>
+      <div id="q8" class="card" style="width: 25rem">
+        <img
+          src="https://img.geocaching.com/waymarking/display/66299f63-bb79-4e6b-ae31-3d0c3259d807.jpg"
+          class="card-img-top"
+          alt="post-box"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Question 8</h5>
+          <p class="card-text">
+            which Sheffield athlete is this golden post box a tribute to?
+          </p>
+          <div class="form-check">
+            <input onclick="question8()" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Jessica Ennis 
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+            Amir Khan
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Sebastian Coe
+            </label>
+          </div>
+          <button onclick="nextQuestion8()" class="btn btn-primary">
+            Next question
+          </button>
+        </div>
+      </div>
+
+      <div id="q9" class="card" style="width: 25rem">
+        <img
+          src="https://i.guim.co.uk/img/media/224d0a412852e5446bd11853c1100229fdea350b/0_621_4320_2592/master/4320.jpg?width=700&quality=85&auto=format&fit=max&s=8684eb69fee54bde6486bb98307848e8"
+          class="card-img-top"
+          alt="trees"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Question 9</h5>
+          <p class="card-text">
+            How many trees are there in Sheffield?
+          </p>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              300,000
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              900,000
+            </label>
+          </div>
+          <div class="form-check">
+            <input onclick="question9()" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              2,000,000
+            </label>
+          </div>
+          <button onclick="nextQuestion9()" class="btn btn-primary">
+            Next question
+          </button>
+        </div>
+      </div>
+      <div id="q10" class="card" style="width: 25rem">
+        <img
+          src="https://worldmark.world/wp-content/uploads/2022/08/arttower-300x273.jpg"
+          class="card-img-top"
+          alt="arts-tower"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Question 10</h5>
+          <p class="card-text">
+            The University of Sheffield's Arts Tower contains the world's largest what?
+          </p>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+            Can of baked beans 
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Tennis ball
+            </label>
+          </div>
+          <div onclick="total()" class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Paternoster
+            </label>
+          </div>
+          <button onclick="showScore" class="btn btn-primary">
+            Next question
+          </button>
         </div>
       </div>
     </div>
