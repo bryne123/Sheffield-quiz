@@ -46,47 +46,47 @@ function nextQuestion10() {
   document.getElementById("Score").style.display = "inline-block";
 }
 // create function that counts how many correct answers are clickeed, and displays a message according to score.
-var let score=0
-function question1(){
-  scoreq1= score+1
-  console.log(scoreq1)
+let score = 0;
+function question1() {
+  scoreq1 = score + 1;
+  console.log(scoreq1);
 }
-function question2(){
-  scoreq2= scoreq1+1
-  console.log(scoreq2)
+function question2() {
+  scoreq2 = scoreq1 + 1;
+  console.log(scoreq2);
 }
-function question3(){
-  scoreq3= scoreq2+1
-  console.log(scoreq3)
+function question3() {
+  scoreq3 = scoreq2 + 1;
+  console.log(scoreq3);
 }
-function question4(){
-  scoreq4= scoreq3+1
-  console.log(scoreq14
+function question4() {
+  scoreq4 = scoreq3 + 1;
+  console.log(scoreq14);
 }
-function question5(){
-  scoreq5= scoreq4+1
-  console.log(scoreq5)
+function question5() {
+  scoreq5 = scoreq4 + 1;
+  console.log(scoreq5);
 }
-function question6(){
-  scoreq6= scoreq5+1
-  console.log(scoreq6)
+function question6() {
+  scoreq6 = scoreq5 + 1;
+  console.log(scoreq6);
 }
-function question7(){
-  scoreq7= scoreq6+1
-  console.log(scoreq7)
+function question7() {
+  scoreq7 = scoreq6 + 1;
+  console.log(scoreq7);
 }
-function question8(){
-  scoreq8= scoreq7+1
-  console.log(scoreq8)
+function question8() {
+  scoreq8 = scoreq7 + 1;
+  console.log(scoreq8);
 }
-function question9(){
-  scoreq9= scoreq8+1
-  console.log(scoreq1)
+function question9() {
+  scoreq9 = scoreq8 + 1;
+  console.log(scoreq1);
 }
-function total(){
-  total= scoreq9+1
-  console.log(scoreq1)
+function total() {
+  total = scoreq9 + 1;
+  console.log(scoreq1);
 }
-function showScore(){
-  alert("You scored [total] ")
+function showScore() {
+  alert("You scored [total] ");
 }
